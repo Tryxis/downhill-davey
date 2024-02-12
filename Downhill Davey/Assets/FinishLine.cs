@@ -8,10 +8,12 @@ public class FinishLine : MonoBehaviour
 {
 
     [SerializeField] float reloadDelay = 1f;
+    [SerializeField] ParticleSystem finishLineEffect;
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
+            finishLineEffect.Play();
             Invoke("ReloadScene", reloadDelay);
         }
     }
