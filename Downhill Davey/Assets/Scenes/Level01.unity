@@ -8869,7 +8869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snowTrail: {fileID: 1796273900}
   snowBoard: {fileID: 8300000, guid: 4c699d1f5d1834b7ba999cb5591e3188, type: 3}
-  snowBoardVolume: 1.5
+  snowBoardVolume: 2
 --- !u!82 &1014030701
 AudioSource:
   m_ObjectHideFlags: 0
